@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&display=swap');
 body {
   font-family: 'Bangers', sans-serif;
-  background-color: black;
+  /* background-color: black; */
+  background-color:  #FFE12D;
 }
 .hometitle {
   font-size: 80px;
   margin: 0px 60px 0px 80px;
-  color: #FFE12D;
+  color: black;
+  /* color: #FFE12D; */
 }
 .address {
   font-size: 35px;
@@ -22,9 +24,10 @@ body {
 display: flex;
 flex-direction: row;
 margin: 35px 0px 30px 0px;
+align-items: center;
 }
 .homeimg {
-width: 350px;
+width: 375px;
 height: auto;
 }
 .home2 {
@@ -35,6 +38,16 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 }
+.logo {
+  width: 125px;
+  margin-bottom: 30px;
+}
+.logodiv {
+  float: right;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
 
 
 @media (max-width: 975px) {

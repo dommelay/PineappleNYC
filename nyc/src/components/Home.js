@@ -13,6 +13,9 @@ const Home = () => {
                         <h2 className='address'>203 East 26th St</h2>
                         <h2 className='address'>Kips Bay, NYC 10010</h2>
                     </div>
+                    <div className='logodiv'>
+                        <img className='logo' src='/images/pinelogo.png' alt='pineapplenyc logo'/>
+                    </div>
                 </div>
                 <div className='homeimgcontainer'>
                     <img className='homeimg home1' src='/images/pinehome1.jpg' alt='home'/>
