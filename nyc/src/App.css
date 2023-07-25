@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&display=swap');
+body {
+  font-family: 'Bangers', sans-serif;
+  background-color: black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hometitle {
+  font-size: 80px;
+  margin: 0px 60px 0px 80px;
+  color: #FFE12D;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.address {
+  font-size: 35px;
+  margin: 5px 0px 0px 0px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.homeaddress {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.header {
+display: flex;
+flex-direction: row;
+margin: 35px 0px 30px 0px;
+}
+.homeimg {
+width: 350px;
+height: auto;
+}
+.home2 {
+margin: 0px 30px 0px 30px;
+}
+.homeimgcontainer {
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@media (max-width: 975px) {
+.homeimg {
+  width: 275px;
+}
+.homeaddress {
+  margin-bottom: 35px;
+  align-items: center;
+}
+.hometitle {
+  margin-left: 70px;
+}
+.address {
+  font-size: 30px;
+}
+}
+@media (max-width: 750px) {
+.home3 {
+  display: none;
+}
+.home2 {
+  margin-right: 0px;
+}
+.header {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.hometitle {
+  margin: 0px 0px 10px 0px;
+}
+}
+@media (max-width: 500px) {
+.homeimgcontainer {
+  flex-direction: column;
+  align-items: center;
+}
+.home2 {
+  margin: 30px 0px 0px 0px;
+}
+.hometitle {
+  font-size: 65px;
+}
+.address {
+  font-size: 25px;
+}
+.header {
+  margin-bottom: 0px;
+}
 }
