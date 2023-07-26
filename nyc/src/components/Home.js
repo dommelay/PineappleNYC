@@ -6,6 +6,8 @@ const Home = () => {
     return (
 
         <>
+    <div className='container'>
+
             <div className='homecontainer'>
 
                 <div className='header'>
@@ -18,6 +20,7 @@ const Home = () => {
                         <img className='logo' src='/images/pinelogo.png' alt='pineapplenyc logo'/>
                     </div>
                 </div>
+                
                 <div className='homeimgcontainer'>
                     <img className='homeimg home1' src='/images/pinehome1.jpg' alt='home'/>
                     <img className='homeimg home2' src='/images/pinehome2.jpg' alt='home'/>
@@ -26,12 +29,16 @@ const Home = () => {
 
             </div>
 
-            <div className='navbar'>
-                <ul>
+            <div className='navcontainer'>
+                <div className='nav'>
+                    <Link to = {'/'}><h3 className='navlink'>Home</h3></Link>
+                     <Link to = {'/about'}><h3 className='navlink'>About</h3></Link>
                     
-                </ul>
+                </div>
             </div>
         
+
+        </div>
         </>
 
 
