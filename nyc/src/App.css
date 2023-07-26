@@ -50,19 +50,24 @@ justify-content: center;
 
 
 
+
 @media (max-width: 975px) {
 .homeimg {
   width: 275px;
 }
 .homeaddress {
-  margin-bottom: 35px;
+  margin: 0px;
   align-items: center;
 }
 .hometitle {
-  margin-left: 70px;
+  margin: 0px 60px 0px 60px;
+  font-size: 70px;
 }
 .address {
-  font-size: 30px;
+  font-size: 27px;
+}
+.logo {
+  width: 100px;
 }
 }
 @media (max-width: 750px) {
@@ -74,7 +79,7 @@ justify-content: center;
 }
 .header {
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
 }
 .hometitle {

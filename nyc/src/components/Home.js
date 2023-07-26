@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom'
 
 const Home = () => {
 
@@ -7,6 +7,7 @@ const Home = () => {
 
         <>
             <div className='homecontainer'>
+
                 <div className='header'>
                     <h1 className='hometitle'>PINEAPPLENYC</h1>
                     <div className='homeaddress'>
@@ -23,6 +24,12 @@ const Home = () => {
                     <img className='homeimg home3' src='/images/pinehome3.jpg' alt='home'/>
                 </div>
 
+            </div>
+
+            <div className='navbar'>
+                <ul>
+                    
+                </ul>
             </div>
         
         </>
