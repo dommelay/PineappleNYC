@@ -10,8 +10,9 @@ const Home = () => {
 
             <div className='homecontainer'>
 
+        <div className='homediv1'>
             <h1 className='hometitle1'>PINEAPPLENYC</h1>
-
+        </div>
                 <div className='header'>
                     <h1 className='hometitle'>PINEAPPLENYC</h1>
                 

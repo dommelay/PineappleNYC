@@ -141,7 +141,10 @@ align-self: center;
   font-size: 25px;
 }
 .header {
-  margin-bottom: 0px;
+  margin: 0px 0px 0px 15px;
+
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -151,6 +154,18 @@ align-self: center;
 }
 .hometitle1 {
   display: block;
+  font-size: 60px;
+  margin: 45px 0px 0px 0px;
+  align-self: center;
 }
-
+.homediv1 {
+  display: flex;
+  justify-content: center;
+}
+.logodiv {
+  margin: 0px;
+}
+.homeaddress {
+  margin-bottom: 20px;
+}
 }
