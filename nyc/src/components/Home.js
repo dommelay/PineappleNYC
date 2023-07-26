@@ -10,8 +10,11 @@ const Home = () => {
 
             <div className='homecontainer'>
 
+            <h1 className='hometitle1'>PINEAPPLENYC</h1>
+
                 <div className='header'>
                     <h1 className='hometitle'>PINEAPPLENYC</h1>
+                
                     <div className='homeaddress'>
                         <h2 className='address'>203 East 26th St</h2>
                         <h2 className='address'>Kips Bay, NYC 10010</h2>

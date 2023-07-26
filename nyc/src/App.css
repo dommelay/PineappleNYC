@@ -28,7 +28,7 @@ a {
 }
 .navcontainer {
   border: solid black;
-
+  display: none;
   width: 350px;
   margin-left: auto;
   right: 0px;
@@ -79,6 +79,13 @@ align-self: center;
   float: right;
   margin-left: auto;
   margin-right: 60px;
+}
+.fullpine {
+  width: 200px;
+  display: none;
+}
+.hometitle1 {
+  display: none;
 }
 
 
@@ -136,4 +143,14 @@ align-self: center;
 .header {
   margin-bottom: 0px;
 }
+
+
+
+.hometitle {
+  display: none;
+}
+.hometitle1 {
+  display: block;
+}
+
 }
