@@ -118,12 +118,24 @@ align-self: center;
   margin-right: 0px;
 }
 .header {
-  flex-direction: column;
+
   justify-content: center;
   margin-bottom: 10px;
 }
 .hometitle {
   margin: 0px 0px 10px 0px;
+  font-size: 60px;
+}
+.address {
+  font-size: 22px;
+}
+.logodiv {
+  margin: 0px;
+  float: right;
+  margin-left: auto;
+}
+.homeaddress {
+  margin: 0px 0px 15px 30px;
 }
 }
 @media (max-width: 500px) {
