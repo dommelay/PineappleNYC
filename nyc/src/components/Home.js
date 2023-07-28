@@ -13,23 +13,31 @@ const Home = () => {
     return (
 
         <>
+
+                    
     <div className='container'>
 
+    <div onClick= {handleMenu} className='logodiv'>
+                        {/* <img className='logo' src='/images/pinelogo.png' alt='pineapplenyc logo'/> */}
+
+                        <img src='/images/menu.png' alt='menu icon' className='menubar'/>
+                        </div>
             <div className='homecontainer'>
 
         <div className='homediv1'>
-            <h1 className='hometitle1'>PINEAPPLENYC</h1>
+            <h1 className='hometitle1'>PINEAPPLE NEW YORK</h1>
         </div>
                 <div className='header'>
-                    <h1 className='hometitle'>PINEAPPLENYC</h1>
+
+                <img className='logo' src='/images/pinelogo.png' alt='pineapplenyc logo'/>
+                    <h1 className='hometitle'>PINEAPPLE NEW YORK</h1>
+                 <img className='logo' src='/images/pinelogo.png' alt='pineapplenyc logo'/>
                 
-                    <div className='homeaddress'>
+                    {/* <div className='homeaddress'>
                         <h2 className='address'>203 East 26th St</h2>
                         <h2 className='address'>Kips Bay, NYC 10010</h2>
-                    </div>
-                    <div onClick= {handleMenu} className='logodiv'>
-                        <img className='logo' src='/images/pinelogo.png' alt='pineapplenyc logo'/>
-                    </div>
+                    </div> */}
+                   
                 </div>
                 
                 <div className='homeimgcontainer'>
